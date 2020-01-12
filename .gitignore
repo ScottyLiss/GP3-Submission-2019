@@ -1,2 +1,4 @@
-*.o
-!assets/*.obj
+# File patterns to ignore; see `git help ignore` for more information.
+# Lines that start with '#' are comments.
+!assets/object/*.obj
+!bin/x64/Debug/assets/object/*.obj
